@@ -366,6 +366,7 @@ void handle_filled_rows(int cleared_rows[4]) {
             clear_row(adjacent_rows_list[j]);
         }
     }
+    render_game();
 }
 
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
